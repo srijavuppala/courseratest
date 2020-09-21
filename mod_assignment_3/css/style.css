@@ -1,0 +1,113 @@
+*{
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+body {
+  font-size: 16px;
+  color: white;
+  background-color: #fff;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/* HEADER */
+#header-nav {
+  background-color: #000;
+  border-radius: 0;
+  border: 0;
+  color: white;
+}
+
+.navbar-brand h1 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+  text-decoration: none;
+  color: #8243d6;
+}
+
+#nav-list{
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+
+#nav-list a span{
+  font-size: 1.3em;
+}
+#header-nav > div > div.navbar-header > button{
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 0px; 
+  margin-right: 0px;
+  float : right;
+  visibility: visible;
+  border:3px double black;
+}
+
+.navbar-header{
+  width:1440px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px white;
+  height: 25px;
+  width: 25px;
+  float:right;
+}
+
+#nav-list a:hover {
+  color: #8243d6;
+  text-decoration: none;
+}
+/* END HEADER */
+
+/* Section */
+#home {
+  margin-bottom: 30px;
+}
+
+.row {
+  
+  position: relative;
+  float: left;
+}
+
+.text-center{
+  padding-top: 15px;
+  padding-bottom: 0px;
+  color: black;
+}
+
+.row > div > article {
+  background-color:white;
+  text-align: justify;
+  margin-bottom: 20px;
+  padding: 12px;
+  color: black;
+}
+/* End Section */
+
+
+@media (max-width: 767px) {
+  .row > div > article {
+    width: 80%;
+    margin: 20px auto 0;
+  }
+}
+
+@media (min-width: 573px) {
+  button { display: none; }
+}
